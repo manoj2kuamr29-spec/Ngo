@@ -520,7 +520,7 @@
         font-size: 1.8rem;
     }
      .contact-about-btn .cont-btn {
-        width: 9rem;
+        width: 8rem;
         padding-left: 6px;
     }
 }
@@ -648,7 +648,7 @@
         height: 25rem;
         z-index: 5;
         line-height: 2rem;
-        padding-left:0.5rem !important;
+        padding-left: 0.5rem !important;
         /* background-color: red; */
 
 
@@ -4006,6 +4006,7 @@ body {
     display: none;
 
 }
+
 
 
 
