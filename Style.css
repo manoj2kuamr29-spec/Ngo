@@ -648,7 +648,7 @@
         height: 25rem;
         z-index: 5;
         line-height: 2rem;
-        padding-left:0.5rem;
+        padding-left:0.5rem !important;
         /* background-color: red; */
 
 
@@ -4006,6 +4006,7 @@ body {
     display: none;
 
 }
+
 
 
 
