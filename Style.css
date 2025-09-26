@@ -519,6 +519,10 @@
         left: 0.5rem;
         font-size: 1.8rem;
     }
+     .contact-about-btn .cont-btn {
+        width: 9rem;
+        padding-left: 6px;
+    }
 }
 
 @media (max-width: 410px) {
@@ -3977,4 +3981,5 @@ body {
 
 #Annual-tab {
     display: none;
+
 }
