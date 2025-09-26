@@ -857,9 +857,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Define image sources for each tab
     const imageMap = {
-        'mission': 'Image/blog-b-1.jpg', // Group collaborating
-        'values': 'Image/blog-b-3.jpg', // Diverse hands symbolizing unity/values
-        'beliefs': 'Image/blog-2.jpg' // People discussing, symbolizing shared beliefs
+        'mission': 'blog-b-1.jpg', // Group collaborating
+        'values': 'blog-b-3.jpg', // Diverse hands symbolizing unity/values
+        'beliefs': 'blog-2.jpg' // People discussing, symbolizing shared beliefs
     };
 
     tabs.forEach(tab => {
@@ -932,19 +932,19 @@ document.addEventListener('DOMContentLoaded', () => {
             text: `"Sita Murli Nav Shristy Foundation. is Very help full for poor people"`,
             author: "Manoj-Kumar",
             title: "Web Designer",
-            avatar: "Allreports/m1.jpeg" // Replace with actual path
+            avatar: "m1.jpeg" // Replace with actual path
         },
         {
             text: `"This organization is doing amazing work! Their dedication to helping children is truly inspiring. I've seen firsthand the positive impact they make in the lives of many. Highly recommend supporting their cause."`,
             author: "John Doe",
             title: "Volunteer",
-            avatar: "Image/user-2.png" // Example, replace with another avatar
+            avatar: "user-2.png" // Example, replace with another avatar
         },
         {
             text: `"A heartfelt thank you to the team for their tireless efforts. The support provided has made a significant difference. It’s wonderful to see such commitment to improving the future for those in need."`,
             author: "Jane Smith",
             title: "Donor",
-            avatar: "Image/user-2.png" // Example, replace with another avatar
+            avatar: "user-2.png" // Example, replace with another avatar
         }
     ];
 
@@ -993,100 +993,100 @@ function copyToClipboard(elementId) {
 document.addEventListener('DOMContentLoaded', () => {
 
     const photoData = [
-        { src: 'Image/imge1.jpeg', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/imge2.jpeg', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/imge3.jpeg', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/imge4.jpeg', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/imge5.jpeg', caption: 'Volunteers on a sustainable agriculture project.' },
-        { src: 'Image/imge6.jpeg', caption: 'Empowering workshops for skill development.' },
-        { src: 'Image/imge7.jpeg', caption: 'Empowering workshops for skill development.' },
-        { src: 'Image/imge8.jpeg', caption: 'Empowering workshops for skill development.' },
-        { src: 'Image/image9.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image10.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image11.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image12.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image13.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image14.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image15.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image16.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image17.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image18.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image19.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image20.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image21.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image22.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image23.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image24.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image25.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image26.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image27.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image28.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image29.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image30.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image31.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image32.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image33.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image34.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image35.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image36.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image37.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image38.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image39.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image40.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image41.png', caption: 'A collaborative brainstorming session.' },
-        { src: 'Image/image42.png', caption: 'Students attending a digital literacy workshop.' },
-        { src: 'Image/image43.png', caption: 'Highlights from our annual fundraising event.' },
-        { src: 'Image/image44.png', caption: 'Community meeting fostering local engagement.' },
-        { src: 'Image/image45.png', caption: 'A collaborative brainstorming session.' }
+        { src: 'imge1.jpeg', caption: 'A collaborative brainstorming session.' },
+        { src: 'imge2.jpeg', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'imge3.jpeg', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'imge4.jpeg', caption: 'Community meeting fostering local engagement.' },
+        { src: 'imge5.jpeg', caption: 'Volunteers on a sustainable agriculture project.' },
+        { src: 'imge6.jpeg', caption: 'Empowering workshops for skill development.' },
+        { src: 'imge7.jpeg', caption: 'Empowering workshops for skill development.' },
+        { src: 'imge8.jpeg', caption: 'Empowering workshops for skill development.' },
+        { src: 'image9.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image10.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image11.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image12.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image13.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image14.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image15.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image16.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image17.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image18.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image19.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image20.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image21.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image22.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image23.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image24.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image25.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image26.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image27.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image28.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image29.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image30.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image31.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image32.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image33.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image34.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image35.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image36.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image37.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image38.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image39.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image40.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image41.png', caption: 'A collaborative brainstorming session.' },
+        { src: 'image42.png', caption: 'Students attending a digital literacy workshop.' },
+        { src: 'image43.png', caption: 'Highlights from our annual fundraising event.' },
+        { src: 'image44.png', caption: 'Community meeting fostering local engagement.' },
+        { src: 'image45.png', caption: 'A collaborative brainstorming session.' }
     ];
 
     const newPhotoData = [
         // { src: 'Image/News1.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News2.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News3.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News4.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News5.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News6.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News7.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News8.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News9.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News10.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News11.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News12.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News13.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News14.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News15.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News16.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News17.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News18.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News19.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News20.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News21.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News22.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News23.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News24.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News25.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News26.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News27.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News28.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News29.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News30.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News31.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News32.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News33.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News34.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News35.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News36.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News37.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News38.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News39.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News40.png', caption: 'Fresh photo of our volunteers.' },
-        { src: 'Image/News41.png', caption: 'Latest from our community gathering.' },
-        { src: 'Image/News42.png', caption: 'The latest additions to our gallery.' },
-        { src: 'Image/News43.png', caption: 'New photo of the team working.' },
-        { src: 'Image/News44.png', caption: 'A new image from a recent event.' },
-        { src: 'Image/News45.png', caption: 'Another new image from our project.' },
-        { src: 'Image/News46.png', caption: 'Fresh photo of our volunteers.' }
+        { src: 'News2.png', caption: 'A new image from a recent event.' },
+        { src: 'News3.png', caption: 'Another new image from our project.' },
+        { src: 'News4.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News5.png', caption: 'Latest from our community gathering.' },
+        { src: 'News6.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News7.png', caption: 'New photo of the team working.' },
+        { src: 'News8.png', caption: 'A new image from a recent event.' },
+        { src: 'News9.png', caption: 'Another new image from our project.' },
+        { src: 'News10.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News11.png', caption: 'Latest from our community gathering.' },
+        { src: 'News12.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News13.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News14.png', caption: 'Another new image from our project.' },
+        { src: 'News15.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News16.png', caption: 'Latest from our community gathering.' },
+        { src: 'News17.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News18.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News19.png', caption: 'New photo of the team working.' },
+        { src: 'News20.png', caption: 'A new image from a recent event.' },
+        { src: 'News21.png', caption: 'Another new image from our project.' },
+        { src: 'News22.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News23.png', caption: 'Latest from our community gathering.' },
+        { src: 'News24.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News25.png', caption: 'New photo of the team working.' },
+        { src: 'News26.png', caption: 'A new image from a recent event.' },
+        { src: 'News27.png', caption: 'Another new image from our project.' },
+        { src: 'News28.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News29.png', caption: 'Latest from our community gathering.' },
+        { src: 'News30.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News31.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News32.png', caption: 'Another new image from our project.' },
+        { src: 'News33.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News34.png', caption: 'Latest from our community gathering.' },
+        { src: 'News35.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News36.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News37.png', caption: 'New photo of the team working.' },
+        { src: 'News38.png', caption: 'A new image from a recent event.' },
+        { src: 'News39.png', caption: 'Another new image from our project.' },
+        { src: 'News40.png', caption: 'Fresh photo of our volunteers.' },
+        { src: 'News41.png', caption: 'Latest from our community gathering.' },
+        { src: 'News42.png', caption: 'The latest additions to our gallery.' },
+        { src: 'News43.png', caption: 'New photo of the team working.' },
+        { src: 'News44.png', caption: 'A new image from a recent event.' },
+        { src: 'News45.png', caption: 'Another new image from our project.' },
+        { src: 'News46.png', caption: 'Fresh photo of our volunteers.' }
 
     ];
 
@@ -1224,6 +1224,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     currentPhotoSet = photoData;
 });
+
 
 
 
