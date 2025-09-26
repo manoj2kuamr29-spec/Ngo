@@ -1615,7 +1615,7 @@ section h2 {
 .hero {
     position: relative;
     height: 50vh;
-    background: url('Image/blog-b-1.jpg') center/cover no-repeat;
+    background: url('blog-b-1.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3993,4 +3993,5 @@ body {
     display: none;
 
 }
+
 
