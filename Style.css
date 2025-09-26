@@ -648,6 +648,7 @@
         height: 25rem;
         z-index: 5;
         line-height: 2rem;
+        padding-left:0.5rem;
         /* background-color: red; */
 
 
@@ -666,6 +667,7 @@
         font-size: 1rem;
         line-height: 1rem;
         color: #E6E6FA;
+        margin-top: 0.4rem;
     }
 
     .inf-title h1 {
@@ -4004,6 +4006,7 @@ body {
     display: none;
 
 }
+
 
 
 
