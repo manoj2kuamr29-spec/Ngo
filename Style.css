@@ -614,6 +614,16 @@
     }
 }
 
+@media (max-width: 780px) {
+    .info p{
+        display: none !important;
+    }
+
+    .info h2{
+        display: none !important;
+    }
+}
+
 @media (max-width: 686px) {
     .info-img-container {
 
@@ -3983,3 +3993,4 @@ body {
     display: none;
 
 }
+
